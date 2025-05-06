@@ -32,7 +32,8 @@
 }
 
 .text:hover{
-    color: black;
+    color: blueviolet;
+    font-size: 18px;
     text-decoration: underline;
 }
 

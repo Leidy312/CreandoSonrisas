@@ -1,0 +1,92 @@
+.principalingresar{
+    background: linear-gradient(90deg, white, indigo);
+     width: 100%;
+     height: 930px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     animation-name: fondo;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+ }
+
+@keyframes fondo{
+    0%{
+        background: linear-gradient(90deg,  indigo, white);
+    }
+    100%{
+        background: linear-gradient(90deg, white, indigo);
+    }
+}
+
+.login{
+    border: 3px solid black;
+    width: 380px;
+    height: 500px;
+    box-shadow: 5px 5px 5px indigo;
+    margin: 0px;
+    
+}
+
+.logoingresar{
+    position: relative;
+    left: 130px;
+    top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.cajaTexto{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    outline: none;
+    margin: 9px;
+    font-family: Georgia, 'Times New Roman', Times,serif;
+    text-align: center;
+}
+
+.botoningresar{
+    position: relative;
+    left: 50px;
+    top: 20px;
+    width: 280px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+.encabezado{
+    background-color: black;
+    width:380px;
+    height: 30px;
+    border: 3px solid black;
+    border-bottom: none;
+    box-shadow: 5px 0px 5px indigo;
+    margin: 0px;
+}
+
+.Registrarse{
+    
+    position: relative;
+    left: 200PX;
+    top: -10PX;
+    color: white;
+}
+
+.Registrarse:hover{
+    transition-delay: 0s, 0.2s;
+    color: azure;
+    box-shadow:
+    0 0 10px violet,
+    0 0 20px violet,
+    0 0 40px violet,
+    0 0 80px violet,
+    0 0 160px violet;
+}
